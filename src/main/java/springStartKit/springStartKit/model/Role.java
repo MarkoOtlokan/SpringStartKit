@@ -3,7 +3,7 @@ package springStartKit.springStartKit.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "roles")
+@Table(name = "roles", schema = "evidencija_projekat")
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
